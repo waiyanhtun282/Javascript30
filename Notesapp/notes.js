@@ -24,7 +24,7 @@ if(e.target.tagName=== "IMG"){
     updateStorage();
 }else if(e.target.tagName === "P") {
     notes =document.querySelectorAll('.input-box');
-    console.log(notes);
+    // console.log(notes);
     notes.forEach(nt => {
         nt.onkeyup = () =>{
             updateStorage();
